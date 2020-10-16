@@ -1,21 +1,148 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+
+    <!-- CDN fchier CSS pour Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.c   bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifj" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- mon fichier CSS perso-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Document</title>
 </head>
+
 <body>
     <main>
-        <section id="caroussel">
-            <ul class="carousel_list">
-                <li class="carousel_item">
-            <h2>Suggestion :</h2>
-            <div class="card">
+        <section>
+            <div class="container-fluid" id="conteneur_menu">
 
-            </div></li>
-            </ul>
+                <h2 class="menu_titre">Menu</h2>
+
+                <div class="container-fluid d-flex flex-row" id="menu">
+
+                    <div class="container d-flex" id="menu_bloc_gauche">
+
+                        <div class="sdw">
+                            <img id="imgmenu1" src="assets/img/kebab-maison-a-l-agneau-presto-grille.jpeg" alt="kebab">
+
+
+                            <p class="sdw_titre">Kebbab à l'agneau</p>
+                        </div>
+
+                        <div class="sdw">
+                            <img id="imgmenu2" src="assets/img/lbsa (2).jpg" alt="kebab">
+                            <p class="sdw_titre">Falafel</p>
+                        </div>
+
+                        <div class="sdw">
+                            <img class="imgmenu" src="assets/img/MenuMakanek-600x300.jpg" alt="kebab">
+                            <p class="sdw_titre"> Assiettes Makanek</p>
+                        </div>
+
+                        <div class="sdw">
+                            <img class="imgmenu" src="assets/img/kebabpoulet.png" alt="kebab">
+                            <p class="sdw_titre">Kebbab poulet</p>
+                        </div>
+
+                        <div class="sdw">
+                            <img class="imgmenu" src="assets/img/libagn.jpg" alt="kebab">
+                            <p class="sdw_titre">Libanais filet mignon</p>
+                        </div>
+
+                        <div class="sdw">
+                            <img class="imgmenu" src="assets/img/asbr.jpg" alt="kebab">
+                            <p class="sdw_titre">Assiette brochette</p>
+                        </div>
+
+                        <div class="sdw">
+                            <img class="imgmenu" src="assets/img/sandwich-turc-vegetarien.jpg" alt="kebab">
+                            <p class="sdw_titre">Kebbab veggie</p>
+                        </div>
+
+                        <div class="sdw">
+                            <img class="imgmenu" src="assets/img/falafel.jpg" alt="kebab">
+                            <p class="sdw_titre">Kerbala aux oignons rouge</p>
+                        </div>
+
+                        <div class="sdw">
+                            <img class="imgmenu" src="assets/img/asst.jpg" alt="kebab">
+                            <p class="sdw_titre">Assiette d'agneau</p>
+                        </div>
+
+                        <div class="sdw">
+                            <img class="imgmenu" src="assets/img/kebabchoux rouge.jpg" alt="kebab">
+                            <p class="sdw_titre">Kebbab aux choux rouge</p>
+                        </div>
+
+                        <div class="sdw">
+                            <img class="imgmenu" src="assets/img/sandwich-chic-taouk.jpg" alt="kebab">
+                            <p class="sdw_titre">Chic-taouk au poulet</p>
+                        </div>
+
+                        <div class="sdw">
+                            <img class="imgmenu" src="assets/img/assn.jpg" alt="kebab">
+                            <p class="sdw_titre">Assiette de nuggets</p>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="d-flex flex-column col-3" id="menu_bloc_droite">
+                        <div class="dessert">
+                            <h2>Dessert: 2 euros</h2>
+                        </div>
+                        <div class="encd">
+                            <p>Le Baklave</p>
+                            <p>Corbeilles au Amandes</p>
+                            <p>Biscuit à l'orange</p>
+                            <p>Gateaux algériens</p>
+                            <p>Nutella Kunafa cones</p>
+                            <p>Sablés à la confiture et noix de coco</p>
+                            <p>Griwech a la rose</p>
+                            <p>Maamoul aux pistaches</p>
+                        </div>
+
+
+                        <div class="boisson">
+                            <h2>Boisson</h2>
+                        </div>
+                        <div class="enct">
+                            <p>Coca</p>
+                            <p>Orangina</p>
+                            <p>Badoit</p>
+                            <p>Tropico</p>
+                            <p>fanta</p>
+                            <p>SanPelligrino</p>
+                            <p>Biére</p>
+                            <p>Vin</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
         </section>
     </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
