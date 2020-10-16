@@ -110,3 +110,53 @@ p {
     color: white;
     margin-top: 0;
 }
+
+/* main partie caroussel*/
+
+#caroussel{
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#caroussel ul{
+    list-style-type: none;
+}
+
+/* ul */
+.carousel_list{
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+}
+
+/* li */
+.carousel_item{
+    flex-grow: 1;
+    flex-shrink: 0;
+    /* largeur des elements du caroussel */
+    flex-basis: 1869px;
+    /* flex: 1 0 1869px; racourci des précédentes lignes */
+    margin-left: 1rem;
+    scroll-snap-align: start;
+}
+
+/* décoration de la scroll bar */
+
+::-webkit-scrollbar-track{
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar{
+    height: 6px;
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #3d4852;
+    border-radius: 3px;
+}
