@@ -1,0 +1,23 @@
+.leftside{
+    background-color: #522A27;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 25%;
+    padding: 2px 0px 5px 10px;
+    font-weight: 600;
+}
+
+input, textarea{
+    margin-top:5px;
+}
+legend{
+    font-weight: 700;
+    font-size: 20px;
+}
+.momo{
+    font-weight: 800;
+    font-size: larger;
+}
+
+
+

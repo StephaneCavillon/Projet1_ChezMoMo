@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Chez MoMo</title>
 </head>
 <body>
@@ -13,6 +14,37 @@
 
     </main>
     <footer>
+        <div class="upfooter">
+            <div class="leftside">  
+                <div class="coordonees">
+                    <p><span class="momo">Chez MoMo </span><br/>
+                    72, rue des Jacobins; 80000 Amiens <br/>
+                    06.12.34.56.78</p>
+                    <p><span class="momo">Horaires:</span> <br/>
+                    Du mardi au Dimanche <br/>
+                        11:30 - 14:30, 18:30 - 23:00</p>
+                </div>
+                <div id="formulaire">
+                    <form method="post" action="mailto:test@test.com">
+                        <legend>Réservation et contact:</legend>
+                        <div>
+                            <!-- <label for="nb_pers"> Nombre de personne</label> -->
+                            <span>
+                                <input type="text" name="nom" id="nom" placeholder="Nom Prénom"> <input type="number" name="nb_pers" id="nb_pers " value="2" placeholder="Nombre de personne" min="1" max="10" step="1">
+                            </span>
+                        </div>
+                        <div>
+                            <span>
+                                <input type="text" name="tel" id="tel" placeholder="Téléphone"> <input type="datetime" name="date" id="date" placeholder="Date">
+                            </span>
+                        </div>
+                        <div>
+                            <textarea name="message" id="message" cols="30" rows="5" placeholder="Votre message"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>  
+        </div>
 
     </footer>
 </body>
