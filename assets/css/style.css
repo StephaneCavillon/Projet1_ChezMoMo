@@ -4,8 +4,9 @@ html {
     width: 100%;
     height: 100%;
 }
+
 body {
-    background-color:white;
+    background-color: white;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -15,43 +16,53 @@ body {
 /* Navigation*/
 ul {
     list-style: none;
-    
+
 }
+
 #li1 {
     box-sizing: content-box;
-    padding: 1px;
-    background-color:#C73E1D;
+    background-color: #C73E1D;
     border-radius: 30px;
+    margin-right: 10px;
 }
+
 #li2 {
     box-sizing: content-box;
-    margin-left: 10px;
-    background-color:#BE4221;
+    margin-right: 50px;
+    background-color: #BE4221;
     border-radius: 30px;
 }
+
 a {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 nav img {
     width: 110px;
-    
     height: 100px;
-    
+
 
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     height: 50px;
-    background-color:#522A27;
-    box-shadow: 2px 2px 12px #C73E1D ;
+    background-color: #522A27;
+    box-shadow: 2px 2px 12px #C73E1D;
     padding: 0px 3%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
 }
+
 nav ul {
     display: flex;
 }
+
 nav ul li a {
     margin: 30px;
     font-family: 'Indie Flower', cursive, sans-serif;
@@ -59,10 +70,12 @@ nav ul li a {
     font-size: 25px;
     font-weight: 500;
 }
+
 .logo {
     color: black;
     font-size: 22px;
 }
+
 /*section Home*/
 
 section {
@@ -73,26 +86,27 @@ section {
     background-size: cover;
     position: relative;
 }
+
 #divPresentation {
     margin-right: 60%;
     margin-left: 6%;
     margin-top: 3%;
     text-align: center;
 }
+
 #titre {
-    font-family:'Indie Flower', cursive, sans-serif; 
+    font-family: 'Indie Flower', cursive, sans-serif;
     font-weight: bold;
-    color:#C73E1D ;
+    color: #C73E1D;
     font-size: 80px;
     text-decoration: wavy underline;
-    
+
 }
+
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:black ;
+    color: black;
     font-size: 140%;
     color: white;
     margin-top: 0;
 }
-
-
