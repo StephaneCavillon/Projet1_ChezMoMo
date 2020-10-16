@@ -36,6 +36,7 @@ div{
    background-size: cover;
     border-radius: 20px;
     text-align: center;
+    max-height: 40%;
 }
 
 .sdw>img{
