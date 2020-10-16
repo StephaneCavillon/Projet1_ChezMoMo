@@ -30,7 +30,7 @@ div{
 }
 
 .sdw{
-   border:2px solid black;
+   border:transparent;
    margin:7px;
    min-width:30%;
    background-size: cover;
