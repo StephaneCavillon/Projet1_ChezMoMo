@@ -33,4 +33,49 @@ img {
 .fab {
     width: 30%;
 }
+.upfooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftside{
+    background-color: #522A27;
+    width: 25%;
+    margin: 3%;
+}
+.coordonees, #formulaire{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px 0px 15px 10px;
+    font-weight: 600;
+}
+/*mise en forme des texte*/
+input, textarea{
+    margin-top:5px;
+}
+legend{
+    font-weight: 700;
+    font-size: 20px;
+}
+.momo{
+    font-weight: 800;
+    font-size: larger;
+}
+/*fin du bloc coordonnées*/
+
+/* bloc agenda */
+.centerside{
+    width: 33%;
+}
+
+
+/* bloc map */
+.rightside{
+    width:33%;
+}
+
+.map{
+    color: white;
+}
 
