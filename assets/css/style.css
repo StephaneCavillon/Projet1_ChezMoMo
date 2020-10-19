@@ -19,6 +19,10 @@ ul {
 
 }
 
+#li1, #li2{
+    margin-top: 15px;
+}
+
 #li1 {
     box-sizing: content-box;
     background-color: #C73E1D;
@@ -132,7 +136,7 @@ p {
     justify-content: space-evenly;
     flex-direction: row;
     padding: 15px 0 15px 0;
-    border: 5px groove #C73E1D;
+    border: 5px solid #C73E1D;
     margin-left: 30px;
 }
 
@@ -215,6 +219,7 @@ p {
     border-radius: 5%;
     color:white;
     font-family: fantasy;
+    padding-bottom: 20px;
 }
 
 .sdw  {
@@ -347,6 +352,12 @@ p {
     background-color: #522A27;
     width: 25%;
     margin: 3%;
+
+}
+
+.leftside, .centerside, .rightside{
+    border: 10px solid #C73E1D;
+
 }
 .coordonees, #formulaire{
     color: white;
@@ -383,3 +394,6 @@ legend{
     color: white;
 }
 
+.title{
+    font-family: 'Indie Flower', cursive, sans-serif;
+}
