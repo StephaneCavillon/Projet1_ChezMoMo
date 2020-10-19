@@ -40,8 +40,6 @@ a {
 nav img {
     width: 110px;
     height: 100px;
-
-
 }
 
 nav {
@@ -56,6 +54,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 99;
 
 }
 
@@ -115,6 +114,7 @@ p {
 
 #caroussel{
     text-align: center;
+    height: 80%;
 }
 
 #caroussel a{
@@ -146,7 +146,7 @@ p {
 }
 
 #caroussel .photo{
-    width: 740px;
+    width:740px;
 }
 
 /* ul */
@@ -209,7 +209,7 @@ p {
 
 #menu_bloc_gauche {
     background-color: #522A27;
-    margin-right: 5px;
+    /* margin-right: 5px; */
     display: flex;
     flex-wrap: wrap  ;
     border-radius: 5%;
@@ -286,9 +286,9 @@ p {
 }
 
 .encd {
-    
     border: solid black;
-    background-image: url(https://i.pinimg.com/originals/ab/87/89/ab8789f34ceb8fe3c69548965aa4c0c6.jpg);
+    background-size: contain;
+    background-image: url(https://image.freepik.com/photos-gratuite/forme-coeur-pepite-petit-gateau-fond-noir_23-2147908283.jpg) ;
     border-radius: 20%;
     font-family: fantasy;
 }
@@ -297,14 +297,19 @@ p {
     color: black;
     /*border: solid black;*/
     background-image: url(https://thumbs.dreamstime.com/b/photo-de-studio-boisson-fra%C3%AEche-au-soda-avec-framboise-sur-fond-noir-d-eau-detox-dans-les-lunettes-164902965.jpg);
-    background-position: 50px 0px 0 px;
+    background-position: 50px 0px 0px;
     border-radius: 20%;
     font-family: fantasy;
 }
 
-.container {
+.container-fluid{
+    line-height:1;
+}
+
+.container_foot {
     display: flex;
     justify-content: center;
+    width:100%;
     background-color: #522A27;
     
 }
@@ -325,10 +330,9 @@ p {
     justify-content: space-evenly;  
     
 }
-img {
+#right img {
     height: 90%;
-    width: 110px;
-    
+    width: 110px;  
 }
 .fab {
     width: 30%;
