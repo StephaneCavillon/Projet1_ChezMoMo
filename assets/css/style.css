@@ -217,7 +217,7 @@ p {
     font-family: fantasy;
 }
 
-.sdw {
+.sdw  {
     border: 2px solid black;
     margin: 7px;
     /*min-width: 30%;*/
@@ -226,13 +226,25 @@ p {
     text-align: center;
     /*max-height: 40%;*/
     background-color: #C73E1D;
+    
+    
+
 }
 
-.sdw>img {
+.sdw img {
     
     width: 300px;
     margin: 7px;
     border-radius: 7px;
+   -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+
+}
+.sdw img:hover{
+    transform:rotate3d(0,1,0,180deg); 
 }
 
 #menu_bloc_droite {
