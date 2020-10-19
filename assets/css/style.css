@@ -162,6 +162,8 @@ p {
 }
 #conteneur_menu div {
     border: transparent;
+    /*display: flex;
+    flex: row ;*/
 }
 
 #conteneur_menu {
@@ -175,16 +177,15 @@ p {
 }
 
 
-/* #menu {
-    background-color: chocolate;
-} */
+#menu {
+    /*background-color: chocolate;*/
+} 
 
 #menu_bloc_gauche {
     background-color: #522A27;
     margin-right: 5px;
     display: flex;
-    flex-wrap: wrap;
-    margin-right: 5%;
+    flex-wrap: wrap  ;
     border-radius: 5%;
     color: black;
     font-family: fantasy;
@@ -193,21 +194,23 @@ p {
 .sdw {
     border: 2px solid black;
     margin: 7px;
-    min-width: 30%;
+    /*min-width: 30%;*/
     background-size: cover;
     border-radius: 20px;
     text-align: center;
-    max-height: 40%;
+    /*max-height: 40%;*/
     background-color: #C73E1D;
 }
 
 .sdw>img {
+    
     width: 300px;
     margin: 7px;
     border-radius: 7px;
 }
 
 #menu_bloc_droite {
+    
     background-color: #C73E1D;
     border-radius: 5%;
     text-align: center;
@@ -257,3 +260,4 @@ p {
     border-radius: 20%;
     font-family: fantasy;
 }
+
