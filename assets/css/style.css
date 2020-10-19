@@ -117,13 +117,36 @@ p {
     text-align: center;
 }
 
+#caroussel a{
+    text-decoration: none;
+}
+
+#caroussel p{
+    color:black;
+    font-weight: 500 ;
+}
+
 .card{
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
+    flex-direction: row;
+    padding: 15px 0 15px 0;
+    border: 5px groove #C73E1D;
+    margin-left: 30px;
+}
+
+.card_description{
+    height: 50%;
+    padding-top: 5%;
 }
 
 #caroussel ul{
     list-style-type: none;
+}
+
+#caroussel .photo{
+    width: 740px;
 }
 
 /* ul */
@@ -160,8 +183,12 @@ p {
     background-color: #3d4852;
     border-radius: 3px;
 }
+
+/* partie menu*/
 #conteneur_menu div {
     border: transparent;
+    /*display: flex;
+    flex: row ;*/
 }
 
 #conteneur_menu {
@@ -175,43 +202,44 @@ p {
 }
 
 
-/* #menu {
-    background-color: chocolate;
-} */
+#menu {
+    color: black;
+    /*background-color: chocolate;*/
+} 
 
 #menu_bloc_gauche {
     background-color: #522A27;
     margin-right: 5px;
     display: flex;
-    flex-wrap: wrap;
-    margin-right: 5%;
+    flex-wrap: wrap  ;
     border-radius: 5%;
-    color: black;
+    color:white;
     font-family: fantasy;
 }
 
 .sdw {
     border: 2px solid black;
     margin: 7px;
-    min-width: 30%;
+    /*min-width: 30%;*/
     background-size: cover;
     border-radius: 20px;
     text-align: center;
-    max-height: 40%;
+    /*max-height: 40%;*/
     background-color: #C73E1D;
 }
 
 .sdw>img {
+    
     width: 300px;
     margin: 7px;
     border-radius: 7px;
 }
 
 #menu_bloc_droite {
+    color: black;
     background-color: #C73E1D;
     border-radius: 5%;
     text-align: center;
-    color: rgb(0, 0, 0);
     margin-bottom: 20%;
     border: solid black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -219,6 +247,7 @@ p {
 
 
 .boisson {
+    color:white;
     font-style: normal;
     font-family: fantasy;
 }
@@ -226,14 +255,15 @@ p {
 
 
 .dessert {
+    color:white;
     font-weight: bolder;
-    text-emphasis-color: black;
+    /*text-emphasis-color:white;*/
     font-size: 3%;
     font-family: fantasy;
 }
 
 .menu_titre {
-    color: black;
+    color:white;
     text-align: center;
     font-family: fantasy;
 }
@@ -244,15 +274,17 @@ p {
 }
 
 .encd {
+    
     border: solid black;
-    background-image: url(https://recettes.de/images/blogs/couscous-et-puddings/chebakia-ou-griwech-aux-graines-de-sesame-gateau-oriental-au-miel.640x480.jpg);
+    background-image: url(https://i.pinimg.com/originals/ab/87/89/ab8789f34ceb8fe3c69548965aa4c0c6.jpg);
     border-radius: 20%;
     font-family: fantasy;
 }
 
 .enct {
-    border: solid black;
-    background-image: url(https://www.aspq.org/app/uploads/2020/06/aspq_illustration-boissons-sucre.png);
+    color: black;
+    /*border: solid black;*/
+    background-image: url(https://thumbs.dreamstime.com/b/photo-de-studio-boisson-fra%C3%AEche-au-soda-avec-framboise-sur-fond-noir-d-eau-detox-dans-les-lunettes-164902965.jpg);
     background-position: 50px 0px 0 px;
     border-radius: 20%;
     font-family: fantasy;
