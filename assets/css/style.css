@@ -127,10 +127,13 @@ p {
 }
 
 .card{
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    border: none;
+    padding: 15px 0 15px 0;
+    border: 5px groove #C73E1D;
+    margin-left: 30px;
 }
 
 .card_description{
