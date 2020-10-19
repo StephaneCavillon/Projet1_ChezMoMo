@@ -301,6 +301,38 @@ p {
     border-radius: 20%;
     font-family: fantasy;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #522A27;
+    
+}
+
+#left {
+    background-color: #522A27;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+#right {
+    background-color: #522A27;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;  
+    
+}
+img {
+    height: 90%;
+    width: 110px;
+    
+}
+.fab {
+    width: 30%;
+}
 .upfooter{
     display: flex;
     justify-content: space-around;
