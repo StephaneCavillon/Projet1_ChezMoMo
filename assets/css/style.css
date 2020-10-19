@@ -117,13 +117,33 @@ p {
     text-align: center;
 }
 
+#caroussel a{
+    text-decoration: none;
+}
+
+#caroussel p{
+    color:black;
+    font-weight: 500 ;
+}
+
 .card{
     display: flex;
     justify-content: space-evenly;
+    flex-direction: row;
+    border: none;
+}
+
+.card_description{
+    height: 50%;
+    padding-top: 5%;
 }
 
 #caroussel ul{
     list-style-type: none;
+}
+
+#caroussel .photo{
+    width: 740px;
 }
 
 /* ul */
@@ -160,6 +180,8 @@ p {
     background-color: #3d4852;
     border-radius: 3px;
 }
+
+/* partie menu*/
 #conteneur_menu div {
     border: transparent;
     /*display: flex;
