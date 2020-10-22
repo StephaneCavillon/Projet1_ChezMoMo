@@ -248,6 +248,7 @@ p {
     transition: all 0.2s;
 
 }
+
 .sdw img:hover{
     transform:rotate3d(0,1,0,180deg); 
 }
